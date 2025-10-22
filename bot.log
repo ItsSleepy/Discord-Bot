@@ -836,3 +836,29 @@ discord.app_commands.errors.CommandInvokeError: Command 'daily' raised an except
 2025-10-22 17:41:45,571 - MegaBot - INFO - Serving 7 users
 2025-10-22 17:41:45,575 - MegaBot - INFO - API server started on http://localhost:5000
 2025-10-22 17:50:37,668 - discord.gateway - INFO - Shard ID None has successfully RESUMED session 842b7f0f0d2c35d999f17571737ca52b.
+2025-10-22 18:41:19,927 - MegaBot.Database - INFO - Database connection closed
+2025-10-22 19:05:25,963 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-10-22 19:05:25,964 - MegaBot - INFO - Starting MegaBot...
+2025-10-22 19:05:25,965 - discord.client - INFO - logging in using static token
+2025-10-22 19:05:26,577 - MegaBot - INFO - Connecting to database...
+2025-10-22 19:05:26,580 - MegaBot.Database - INFO - Database tables created/verified
+2025-10-22 19:05:26,580 - MegaBot.Database - INFO - Database connected: bot_data.db
+2025-10-22 19:05:26,581 - MegaBot - INFO - Loading cogs...
+2025-10-22 19:05:26,593 - MegaBot - INFO - [OK] Loaded cogs.help
+2025-10-22 19:05:26,617 - MegaBot.Gaming - INFO - Gaming cog loaded
+2025-10-22 19:05:26,618 - MegaBot - INFO - [OK] Loaded cogs.gaming
+2025-10-22 19:05:26,623 - MegaBot - INFO - [OK] Loaded cogs.tournament
+2025-10-22 19:05:26,629 - MegaBot.Economy - INFO - Economy cog loaded
+2025-10-22 19:05:26,629 - MegaBot - INFO - [OK] Loaded cogs.economy
+2025-10-22 19:05:26,641 - MegaBot - INFO - [OK] Loaded cogs.utility
+2025-10-22 19:05:26,647 - MegaBot - INFO - [OK] Loaded cogs.study
+2025-10-22 19:05:26,654 - MegaBot - INFO - [OK] Loaded cogs.moderation
+2025-10-22 19:05:26,659 - MegaBot - INFO - [OK] Loaded cogs.fun
+2025-10-22 19:05:26,665 - MegaBot - INFO - [OK] Loaded cogs.stats
+2025-10-22 19:05:27,109 - MegaBot - INFO - [OK] Synced 66 command(s)
+2025-10-22 19:05:27,705 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: d8bb45f942342fc90f69b9cc00456b95).
+2025-10-22 19:05:29,754 - MegaBot - INFO - BOT ONLINE: MegaBot
+2025-10-22 19:05:29,754 - MegaBot - INFO - Connected to 3 server(s)
+2025-10-22 19:05:29,755 - MegaBot - INFO - Serving 34 users
+2025-10-22 19:05:29,756 - MegaBot - INFO - API server started on http://localhost:5000
+2025-10-22 21:22:26,551 - discord.gateway - INFO - Shard ID None has successfully RESUMED session d8bb45f942342fc90f69b9cc00456b95.
