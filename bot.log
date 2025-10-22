@@ -1,0 +1,838 @@
+2025-10-22 12:41:27,188 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-10-22 12:41:27,190 - MegaBot - INFO - Starting MegaBot...
+2025-10-22 12:41:27,193 - discord.client - INFO - logging in using static token
+2025-10-22 12:41:28,118 - MegaBot - INFO - Loading cogs...
+2025-10-22 12:41:28,294 - MegaBot - INFO - [OK] Loaded cogs.help
+2025-10-22 12:41:28,397 - MegaBot.Gaming - INFO - Gaming cog loaded
+2025-10-22 12:41:28,405 - MegaBot - INFO - [OK] Loaded cogs.gaming
+2025-10-22 12:41:28,469 - MegaBot.Sports - INFO - Sports cog loaded
+2025-10-22 12:41:28,482 - MegaBot - INFO - [OK] Loaded cogs.sports
+2025-10-22 12:41:28,566 - MegaBot - INFO - [OK] Loaded cogs.tournament
+2025-10-22 12:41:28,696 - MegaBot.Economy - INFO - Economy cog loaded
+2025-10-22 12:41:28,703 - MegaBot - INFO - [OK] Loaded cogs.economy
+2025-10-22 12:41:29,216 - MegaBot - INFO - [OK] Loaded cogs.utility
+2025-10-22 12:41:29,301 - MegaBot - INFO - [OK] Loaded cogs.study
+2025-10-22 12:41:29,414 - MegaBot - INFO - [OK] Loaded cogs.moderation
+2025-10-22 12:41:29,491 - MegaBot - INFO - [OK] Loaded cogs.fun
+2025-10-22 12:41:29,553 - MegaBot - INFO - [OK] Loaded cogs.stats
+2025-10-22 12:41:30,445 - MegaBot - INFO - [OK] Synced 67 command(s)
+2025-10-22 12:41:31,216 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: cb5a887876b9cb811287132df409b1a2).
+2025-10-22 12:41:33,226 - MegaBot - INFO - BOT ONLINE: MegaBot
+2025-10-22 12:41:33,227 - MegaBot - INFO - Connected to 1 server(s)
+2025-10-22 12:41:33,228 - MegaBot - INFO - Serving 4 users
+2025-10-22 12:41:33,229 - MegaBot - INFO - API server started on http://localhost:5000
+2025-10-22 12:41:33,263 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.133.88.48:5000
+2025-10-22 12:41:33,265 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-22 12:41:33,368 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:33] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:33,811 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:33] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:34,355 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:34] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:34,610 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:34] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:35,291 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:35] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:35,983 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:35] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:36,647 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:36] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:36,916 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:36] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:37,601 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:37] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:37,857 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:37] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:38,152 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:38] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:38,864 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:38] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:39,107 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:39] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:39,762 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:39] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:40,014 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:40] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:40,675 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:40] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:40,927 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:40] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:41,301 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:41] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:41,987 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:41] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:42,245 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:42] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:42,632 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:42] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:43,351 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:43] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:43,611 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:43] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:43,933 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:43] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:44,663 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:44] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:44,913 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:44] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:45,613 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:45] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:45,888 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:45] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:46,610 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:46] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:46,857 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:46] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:47,145 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:47] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:47,866 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:47] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:48,132 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:48] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:48,840 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:48] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:49,114 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:49] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:49,415 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:49] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:50,167 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:50] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:50,420 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:50] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:52,512 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:52] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:41:53,163 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:41:53] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+2025-10-22 12:41:53,590 - discord.gateway - INFO - Shard ID None has successfully RESUMED session cb5a887876b9cb811287132df409b1a2.
+2025-10-22 12:42:22,844 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:42:22] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:42:53,170 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:42:53] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:42:57,659 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:42:57] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:42:58,340 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:42:58] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:42:58,805 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:42:58] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:42:59,531 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:42:59] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:42:59,796 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:42:59] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:43:00,526 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:43:00] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:43:30,214 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:43:30] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:43:32,711 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:43:32] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:43:33,909 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:43:33] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:43:34,956 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:43:34] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:43:35,337 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:43:35] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:43:36,032 - werkzeug - INFO - 127.0.0.1 - - [22/Oct/2025 12:43:36] "GET /api/stats HTTP/1.1" 200 -
+2025-10-22 12:44:08,836 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-10-22 12:44:08,836 - MegaBot - INFO - Starting MegaBot...
+2025-10-22 12:44:08,838 - discord.client - INFO - logging in using static token
+2025-10-22 12:44:09,490 - MegaBot - INFO - Loading cogs...
+2025-10-22 12:44:09,540 - MegaBot - INFO - [OK] Loaded cogs.help
+2025-10-22 12:44:09,571 - MegaBot.Gaming - INFO - Gaming cog loaded
+2025-10-22 12:44:09,571 - MegaBot - INFO - [OK] Loaded cogs.gaming
+2025-10-22 12:44:09,596 - MegaBot.Sports - INFO - Sports cog loaded
+2025-10-22 12:44:09,596 - MegaBot - INFO - [OK] Loaded cogs.sports
+2025-10-22 12:44:09,625 - MegaBot - INFO - [OK] Loaded cogs.tournament
+2025-10-22 12:44:09,653 - MegaBot.Economy - INFO - Economy cog loaded
+2025-10-22 12:44:09,653 - MegaBot - INFO - [OK] Loaded cogs.economy
+2025-10-22 12:44:09,685 - MegaBot - INFO - [OK] Loaded cogs.utility
+2025-10-22 12:44:09,711 - MegaBot - INFO - [OK] Loaded cogs.study
+2025-10-22 12:44:09,737 - MegaBot - INFO - [OK] Loaded cogs.moderation
+2025-10-22 12:44:09,760 - MegaBot - INFO - [OK] Loaded cogs.fun
+2025-10-22 12:44:09,788 - MegaBot - INFO - [OK] Loaded cogs.stats
+2025-10-22 12:44:10,273 - MegaBot - INFO - [OK] Synced 67 command(s)
+2025-10-22 12:44:10,861 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 294021edad9993248dbbce7a572e252f).
+2025-10-22 12:44:12,870 - MegaBot - INFO - BOT ONLINE: MegaBot
+2025-10-22 12:44:12,870 - MegaBot - INFO - Connected to 1 server(s)
+2025-10-22 12:44:12,871 - MegaBot - INFO - Serving 4 users
+2025-10-22 12:44:12,872 - MegaBot - INFO - API server started on http://localhost:5000
+2025-10-22 13:04:09,863 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-10-22 13:04:09,864 - MegaBot - INFO - Starting MegaBot...
+2025-10-22 13:04:09,866 - discord.client - INFO - logging in using static token
+2025-10-22 13:04:10,521 - MegaBot - INFO - Loading cogs...
+2025-10-22 13:04:10,576 - MegaBot - INFO - [OK] Loaded cogs.help
+2025-10-22 13:04:10,665 - MegaBot.Gaming - INFO - Gaming cog loaded
+2025-10-22 13:04:10,665 - MegaBot - INFO - [OK] Loaded cogs.gaming
+2025-10-22 13:04:10,721 - MegaBot.Sports - INFO - Sports cog loaded
+2025-10-22 13:04:10,723 - MegaBot - INFO - [OK] Loaded cogs.sports
+2025-10-22 13:04:10,784 - MegaBot - INFO - [OK] Loaded cogs.tournament
+2025-10-22 13:04:10,814 - MegaBot.Economy - INFO - Economy cog loaded
+2025-10-22 13:04:10,815 - MegaBot - INFO - [OK] Loaded cogs.economy
+2025-10-22 13:04:10,871 - MegaBot - INFO - [OK] Loaded cogs.utility
+2025-10-22 13:04:10,898 - MegaBot - INFO - [OK] Loaded cogs.study
+2025-10-22 13:04:10,930 - MegaBot - INFO - [OK] Loaded cogs.moderation
+2025-10-22 13:04:10,953 - MegaBot - INFO - [OK] Loaded cogs.fun
+2025-10-22 13:04:10,981 - MegaBot - INFO - [OK] Loaded cogs.stats
+2025-10-22 13:04:11,567 - MegaBot - INFO - [OK] Synced 67 command(s)
+2025-10-22 13:04:12,202 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 29e33bd3b493da037dbfe9c691545f7b).
+2025-10-22 13:04:14,217 - MegaBot - INFO - BOT ONLINE: MegaBot
+2025-10-22 13:04:14,217 - MegaBot - INFO - Connected to 1 server(s)
+2025-10-22 13:04:14,217 - MegaBot - INFO - Serving 4 users
+2025-10-22 13:04:14,217 - MegaBot - INFO - API server started on http://localhost:5000
+2025-10-22 13:04:40,394 - discord.app_commands.tree - ERROR - Ignoring exception in command 'steam'
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\OneDrive - Malta Information Technology Agency\Desktop\CODE\Personal Code\DiscordBot\cogs\gaming.py", line 20, in steam_profile
+    await interaction.response.defer()
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\interactions.py", line 858, in defer
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\webhook\async_.py", line 226, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 40060): Interaction has already been acknowledged.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1297, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 884, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 877, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'steam' raised an exception: HTTPException: 400 Bad Request (error code: 40060): Interaction has already been acknowledged.
+2025-10-22 13:05:15,649 - discord.app_commands.tree - ERROR - Ignoring exception in command 'steam'
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\OneDrive - Malta Information Technology Agency\Desktop\CODE\Personal Code\DiscordBot\cogs\gaming.py", line 20, in steam_profile
+    await interaction.response.defer()
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\interactions.py", line 858, in defer
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\webhook\async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1297, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 884, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 877, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'steam' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-10-22 13:05:32,898 - discord.app_commands.tree - ERROR - Ignoring exception in command 'steam'
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\OneDrive - Malta Information Technology Agency\Desktop\CODE\Personal Code\DiscordBot\cogs\gaming.py", line 20, in steam_profile
+    await interaction.response.defer()
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\interactions.py", line 858, in defer
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\webhook\async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1297, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 884, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 877, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'steam' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-10-22 13:19:07,370 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-10-22 13:19:07,370 - MegaBot - INFO - Starting MegaBot...
+2025-10-22 13:19:07,375 - discord.client - INFO - logging in using static token
+2025-10-22 13:19:08,264 - MegaBot - INFO - Loading cogs...
+2025-10-22 13:19:08,306 - MegaBot - INFO - [OK] Loaded cogs.help
+2025-10-22 13:19:08,382 - MegaBot.Gaming - INFO - Gaming cog loaded
+2025-10-22 13:19:08,383 - MegaBot - INFO - [OK] Loaded cogs.gaming
+2025-10-22 13:19:08,465 - MegaBot.Sports - INFO - Sports cog loaded
+2025-10-22 13:19:08,467 - MegaBot - INFO - [OK] Loaded cogs.sports
+2025-10-22 13:19:08,494 - MegaBot - INFO - [OK] Loaded cogs.tournament
+2025-10-22 13:19:08,574 - MegaBot.Economy - INFO - Economy cog loaded
+2025-10-22 13:19:08,575 - MegaBot - INFO - [OK] Loaded cogs.economy
+2025-10-22 13:19:08,617 - MegaBot - INFO - [OK] Loaded cogs.utility
+2025-10-22 13:19:08,639 - MegaBot - INFO - [OK] Loaded cogs.study
+2025-10-22 13:19:08,725 - MegaBot - INFO - [OK] Loaded cogs.moderation
+2025-10-22 13:19:08,747 - MegaBot - INFO - [OK] Loaded cogs.fun
+2025-10-22 13:19:08,766 - MegaBot - INFO - [OK] Loaded cogs.stats
+2025-10-22 13:19:09,279 - MegaBot - INFO - [OK] Synced 73 command(s)
+2025-10-22 13:19:10,135 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: d8f554d6b17cbef4a75e87db1133dc24).
+2025-10-22 13:19:12,138 - MegaBot - INFO - BOT ONLINE: MegaBot
+2025-10-22 13:19:12,138 - MegaBot - INFO - Connected to 1 server(s)
+2025-10-22 13:19:12,138 - MegaBot - INFO - Serving 4 users
+2025-10-22 13:19:12,143 - MegaBot - INFO - API server started on http://localhost:5000
+2025-10-22 13:19:38,983 - discord.app_commands.tree - ERROR - Ignoring exception in command tree
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1138, in wrapper
+    await self._call(interaction)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1270, in _call
+    command, options = self._get_app_command_options(data)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1174, in _get_app_command_options
+    raise CommandNotFound(name, parents)
+discord.app_commands.errors.CommandNotFound: Application command 'shop' not found
+2025-10-22 13:19:39,053 - discord.app_commands.tree - ERROR - Ignoring exception in command tree
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1138, in wrapper
+    await self._call(interaction)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1270, in _call
+    command, options = self._get_app_command_options(data)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1174, in _get_app_command_options
+    raise CommandNotFound(name, parents)
+discord.app_commands.errors.CommandNotFound: Application command 'shop' not found
+2025-10-22 13:29:35,124 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-10-22 13:29:35,124 - MegaBot - INFO - Starting MegaBot...
+2025-10-22 13:29:35,141 - discord.client - INFO - logging in using static token
+2025-10-22 13:29:35,839 - MegaBot - INFO - Loading cogs...
+2025-10-22 13:29:35,862 - MegaBot - INFO - [OK] Loaded cogs.help
+2025-10-22 13:29:35,884 - MegaBot.Gaming - INFO - Gaming cog loaded
+2025-10-22 13:29:35,888 - MegaBot - INFO - [OK] Loaded cogs.gaming
+2025-10-22 13:29:35,895 - MegaBot - INFO - [OK] Loaded cogs.tournament
+2025-10-22 13:29:35,918 - MegaBot.Economy - INFO - Economy cog loaded
+2025-10-22 13:29:35,918 - MegaBot - INFO - [OK] Loaded cogs.economy
+2025-10-22 13:29:35,926 - MegaBot - INFO - [OK] Loaded cogs.utility
+2025-10-22 13:29:35,931 - MegaBot - INFO - [OK] Loaded cogs.study
+2025-10-22 13:29:35,962 - MegaBot - INFO - [OK] Loaded cogs.moderation
+2025-10-22 13:29:35,962 - MegaBot - INFO - [OK] Loaded cogs.fun
+2025-10-22 13:29:35,962 - MegaBot - INFO - [OK] Loaded cogs.stats
+2025-10-22 13:29:36,534 - MegaBot - INFO - [OK] Synced 66 command(s)
+2025-10-22 13:29:37,089 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 89dd59dd6b8e82a4449a6d737b818662).
+2025-10-22 13:29:39,091 - MegaBot - INFO - BOT ONLINE: MegaBot
+2025-10-22 13:29:39,091 - MegaBot - INFO - Connected to 1 server(s)
+2025-10-22 13:29:39,092 - MegaBot - INFO - Serving 4 users
+2025-10-22 13:29:39,092 - MegaBot - INFO - API server started on http://localhost:5000
+2025-10-22 13:47:07,644 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-10-22 13:47:07,644 - MegaBot - INFO - Starting MegaBot...
+2025-10-22 13:47:07,650 - discord.client - INFO - logging in using static token
+2025-10-22 13:47:09,719 - MegaBot - INFO - Loading cogs...
+2025-10-22 13:47:09,774 - MegaBot - INFO - [OK] Loaded cogs.help
+2025-10-22 13:47:09,793 - MegaBot.Gaming - INFO - Gaming cog loaded
+2025-10-22 13:47:09,794 - MegaBot - INFO - [OK] Loaded cogs.gaming
+2025-10-22 13:47:09,818 - MegaBot - INFO - [OK] Loaded cogs.tournament
+2025-10-22 13:47:09,894 - MegaBot.Economy - INFO - Economy cog loaded
+2025-10-22 13:47:09,895 - MegaBot - INFO - [OK] Loaded cogs.economy
+2025-10-22 13:47:09,946 - MegaBot - INFO - [OK] Loaded cogs.utility
+2025-10-22 13:47:09,980 - MegaBot - INFO - [OK] Loaded cogs.study
+2025-10-22 13:47:10,061 - MegaBot - INFO - [OK] Loaded cogs.moderation
+2025-10-22 13:47:10,085 - MegaBot - INFO - [OK] Loaded cogs.fun
+2025-10-22 13:47:10,107 - MegaBot - INFO - [OK] Loaded cogs.stats
+2025-10-22 13:47:10,534 - MegaBot - INFO - [OK] Synced 66 command(s)
+2025-10-22 13:47:11,073 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 1cd51c77c3309b5c6f6b185f261b6145).
+2025-10-22 13:47:13,076 - MegaBot - INFO - BOT ONLINE: MegaBot
+2025-10-22 13:47:13,079 - MegaBot - INFO - Connected to 1 server(s)
+2025-10-22 13:47:13,085 - MegaBot - INFO - Serving 4 users
+2025-10-22 13:47:13,097 - MegaBot - INFO - API server started on http://localhost:5000
+2025-10-22 13:47:42,732 - discord.app_commands.tree - ERROR - Ignoring exception in command tree
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1138, in wrapper
+    await self._call(interaction)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1270, in _call
+    command, options = self._get_app_command_options(data)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1174, in _get_app_command_options
+    raise CommandNotFound(name, parents)
+discord.app_commands.errors.CommandNotFound: Application command 'shop' not found
+2025-10-22 13:47:42,737 - discord.app_commands.tree - ERROR - Ignoring exception in command tree
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1138, in wrapper
+    await self._call(interaction)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1270, in _call
+    command, options = self._get_app_command_options(data)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1174, in _get_app_command_options
+    raise CommandNotFound(name, parents)
+discord.app_commands.errors.CommandNotFound: Application command 'shop' not found
+2025-10-22 13:47:43,011 - discord.app_commands.tree - ERROR - Ignoring exception in command 'shop'
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\OneDrive - Malta Information Technology Agency\Desktop\CODE\Personal Code\DiscordBot\cogs\economy.py", line 386, in shop
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\interactions.py", line 1051, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\webhook\async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1297, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 884, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 877, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'shop' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-10-22 13:47:43,035 - discord.app_commands.tree - ERROR - Ignoring exception in command 'shop'
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\OneDrive - Malta Information Technology Agency\Desktop\CODE\Personal Code\DiscordBot\cogs\economy.py", line 386, in shop
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\interactions.py", line 1051, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\webhook\async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1297, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 884, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 877, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'shop' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-10-22 13:50:31,542 - discord.app_commands.tree - ERROR - Ignoring exception in command 'daily'
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\OneDrive - Malta Information Technology Agency\Desktop\CODE\Personal Code\DiscordBot\cogs\economy.py", line 88, in daily
+    await interaction.response.send_message(embed=embed)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\interactions.py", line 1051, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\webhook\async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1297, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 884, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 877, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'daily' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-10-22 13:50:31,528 - discord.app_commands.tree - ERROR - Ignoring exception in command 'daily'
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\OneDrive - Malta Information Technology Agency\Desktop\CODE\Personal Code\DiscordBot\cogs\economy.py", line 88, in daily
+    await interaction.response.send_message(embed=embed)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\interactions.py", line 1051, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\webhook\async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1297, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 884, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 877, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'daily' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-10-22 13:50:31,536 - discord.app_commands.tree - ERROR - Ignoring exception in command 'daily'
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\OneDrive - Malta Information Technology Agency\Desktop\CODE\Personal Code\DiscordBot\cogs\economy.py", line 88, in daily
+    await interaction.response.send_message(embed=embed)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\interactions.py", line 1051, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\webhook\async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1297, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 884, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 877, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'daily' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-10-22 13:50:31,574 - discord.app_commands.tree - ERROR - Ignoring exception in command 'daily'
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\OneDrive - Malta Information Technology Agency\Desktop\CODE\Personal Code\DiscordBot\cogs\economy.py", line 88, in daily
+    await interaction.response.send_message(embed=embed)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\interactions.py", line 1051, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\webhook\async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1297, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 884, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 877, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'daily' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-10-22 13:50:36,598 - discord.app_commands.tree - ERROR - Ignoring exception in command 'daily'
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\OneDrive - Malta Information Technology Agency\Desktop\CODE\Personal Code\DiscordBot\cogs\economy.py", line 72, in daily
+    await interaction.response.send_message(embed=embed, ephemeral=True)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\interactions.py", line 1051, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\webhook\async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1297, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 884, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 877, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'daily' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-10-22 13:50:36,598 - discord.app_commands.tree - ERROR - Ignoring exception in command 'daily'
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\OneDrive - Malta Information Technology Agency\Desktop\CODE\Personal Code\DiscordBot\cogs\economy.py", line 72, in daily
+    await interaction.response.send_message(embed=embed, ephemeral=True)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\interactions.py", line 1051, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\webhook\async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1297, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 884, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 877, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'daily' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-10-22 13:50:36,609 - discord.app_commands.tree - ERROR - Ignoring exception in command 'daily'
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\OneDrive - Malta Information Technology Agency\Desktop\CODE\Personal Code\DiscordBot\cogs\economy.py", line 72, in daily
+    await interaction.response.send_message(embed=embed, ephemeral=True)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\interactions.py", line 1051, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\webhook\async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1297, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 884, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 877, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'daily' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-10-22 13:50:36,643 - discord.app_commands.tree - ERROR - Ignoring exception in command 'daily'
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\OneDrive - Malta Information Technology Agency\Desktop\CODE\Personal Code\DiscordBot\cogs\economy.py", line 72, in daily
+    await interaction.response.send_message(embed=embed, ephemeral=True)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\interactions.py", line 1051, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\webhook\async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1297, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 884, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 877, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'daily' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-10-22 13:51:58,050 - discord.app_commands.tree - ERROR - Ignoring exception in command 'daily'
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\OneDrive - Malta Information Technology Agency\Desktop\CODE\Personal Code\DiscordBot\cogs\economy.py", line 72, in daily
+    await interaction.response.send_message(embed=embed, ephemeral=True)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\interactions.py", line 1051, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\webhook\async_.py", line 224, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1297, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 884, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 877, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'daily' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-10-22 13:51:58,316 - discord.app_commands.tree - ERROR - Ignoring exception in command 'daily'
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\OneDrive - Malta Information Technology Agency\Desktop\CODE\Personal Code\DiscordBot\cogs\economy.py", line 72, in daily
+    await interaction.response.send_message(embed=embed, ephemeral=True)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\interactions.py", line 1051, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\webhook\async_.py", line 226, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 40060): Interaction has already been acknowledged.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1297, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 884, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 877, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'daily' raised an exception: HTTPException: 400 Bad Request (error code: 40060): Interaction has already been acknowledged.
+2025-10-22 13:51:58,330 - discord.app_commands.tree - ERROR - Ignoring exception in command 'daily'
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\OneDrive - Malta Information Technology Agency\Desktop\CODE\Personal Code\DiscordBot\cogs\economy.py", line 72, in daily
+    await interaction.response.send_message(embed=embed, ephemeral=True)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\interactions.py", line 1051, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\webhook\async_.py", line 226, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 40060): Interaction has already been acknowledged.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1297, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 884, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 877, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'daily' raised an exception: HTTPException: 400 Bad Request (error code: 40060): Interaction has already been acknowledged.
+2025-10-22 13:54:01,584 - discord.gateway - INFO - Shard ID None has successfully RESUMED session 29e33bd3b493da037dbfe9c691545f7b.
+2025-10-22 14:14:03,236 - discord.gateway - INFO - Shard ID None has successfully RESUMED session 294021edad9993248dbbce7a572e252f.
+2025-10-22 14:19:41,813 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-10-22 14:19:41,813 - MegaBot - INFO - Starting MegaBot...
+2025-10-22 14:19:41,813 - discord.client - INFO - logging in using static token
+2025-10-22 14:19:42,607 - MegaBot - INFO - Connecting to database...
+2025-10-22 14:19:42,876 - MegaBot.Database - INFO - Database tables created/verified
+2025-10-22 14:19:42,876 - MegaBot.Database - INFO - Database connected: bot_data.db
+2025-10-22 14:19:42,876 - MegaBot - INFO - Loading cogs...
+2025-10-22 14:19:43,051 - MegaBot - INFO - [OK] Loaded cogs.help
+2025-10-22 14:19:43,110 - MegaBot.Gaming - INFO - Gaming cog loaded
+2025-10-22 14:19:43,110 - MegaBot - INFO - [OK] Loaded cogs.gaming
+2025-10-22 14:19:43,168 - MegaBot - INFO - [OK] Loaded cogs.tournament
+2025-10-22 14:19:43,241 - MegaBot.Economy - INFO - Economy cog loaded
+2025-10-22 14:19:43,241 - MegaBot - INFO - [OK] Loaded cogs.economy
+2025-10-22 14:19:43,322 - MegaBot - INFO - [OK] Loaded cogs.utility
+2025-10-22 14:19:43,392 - MegaBot - INFO - [OK] Loaded cogs.study
+2025-10-22 14:19:43,456 - MegaBot - INFO - [OK] Loaded cogs.moderation
+2025-10-22 14:19:43,518 - MegaBot - INFO - [OK] Loaded cogs.fun
+2025-10-22 14:19:43,590 - MegaBot - INFO - [OK] Loaded cogs.stats
+2025-10-22 14:19:44,368 - MegaBot - INFO - [OK] Synced 66 command(s)
+2025-10-22 14:19:45,593 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: c5d2cad2ba524e2d37f84afdc20287fe).
+2025-10-22 14:19:47,634 - MegaBot - INFO - BOT ONLINE: MegaBot
+2025-10-22 14:19:47,635 - MegaBot - INFO - Connected to 1 server(s)
+2025-10-22 14:19:47,635 - MegaBot - INFO - Serving 4 users
+2025-10-22 14:19:47,635 - MegaBot - INFO - API server started on http://localhost:5000
+2025-10-22 14:28:02,530 - MegaBot.Database - INFO - Database connection closed
+2025-10-22 14:32:53,701 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-10-22 14:32:53,701 - MegaBot - INFO - Starting MegaBot...
+2025-10-22 14:32:53,702 - discord.client - INFO - logging in using static token
+2025-10-22 14:32:54,510 - MegaBot - INFO - Connecting to database...
+2025-10-22 14:32:54,517 - MegaBot.Database - INFO - Database tables created/verified
+2025-10-22 14:32:54,517 - MegaBot.Database - INFO - Database connected: bot_data.db
+2025-10-22 14:32:54,517 - MegaBot - INFO - Loading cogs...
+2025-10-22 14:32:54,565 - MegaBot - INFO - [OK] Loaded cogs.help
+2025-10-22 14:32:54,585 - MegaBot.Gaming - INFO - Gaming cog loaded
+2025-10-22 14:32:54,585 - MegaBot - INFO - [OK] Loaded cogs.gaming
+2025-10-22 14:32:54,611 - MegaBot - INFO - [OK] Loaded cogs.tournament
+2025-10-22 14:32:54,631 - MegaBot.Economy - INFO - Economy cog loaded
+2025-10-22 14:32:54,632 - MegaBot - INFO - [OK] Loaded cogs.economy
+2025-10-22 14:32:54,669 - MegaBot - INFO - [OK] Loaded cogs.utility
+2025-10-22 14:32:54,683 - MegaBot - INFO - [OK] Loaded cogs.study
+2025-10-22 14:32:54,710 - MegaBot - INFO - [OK] Loaded cogs.moderation
+2025-10-22 14:32:54,736 - MegaBot - INFO - [OK] Loaded cogs.fun
+2025-10-22 14:32:54,762 - MegaBot - INFO - [OK] Loaded cogs.stats
+2025-10-22 14:32:55,174 - MegaBot - INFO - [OK] Synced 66 command(s)
+2025-10-22 14:32:56,593 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 1ccfc1945cecd999417c48d1cfa4d656).
+2025-10-22 14:32:58,600 - MegaBot - INFO - BOT ONLINE: MegaBot
+2025-10-22 14:32:58,600 - MegaBot - INFO - Connected to 1 server(s)
+2025-10-22 14:32:58,600 - MegaBot - INFO - Serving 4 users
+2025-10-22 14:32:58,604 - MegaBot - INFO - API server started on http://localhost:5000
+2025-10-22 14:34:33,719 - discord.app_commands.tree - ERROR - Ignoring exception in command 'daily'
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(self.binding, interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\OneDrive - Malta Information Technology Agency\Desktop\CODE\Personal Code\DiscordBot\cogs\economy.py", line 75, in daily
+    await interaction.response.send_message(embed=embed)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\interactions.py", line 1051, in send_message
+    response = await adapter.create_interaction_response(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\webhook\async_.py", line 226, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 40060): Interaction has already been acknowledged.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\tree.py", line 1297, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 884, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\camii061\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\discord\app_commands\commands.py", line 877, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'daily' raised an exception: HTTPException: 400 Bad Request (error code: 40060): Interaction has already been acknowledged.
+2025-10-22 15:00:07,360 - discord.gateway - INFO - Shard ID None has successfully RESUMED session 29e33bd3b493da037dbfe9c691545f7b.
+2025-10-22 15:00:11,957 - discord.gateway - INFO - Shard ID None has successfully RESUMED session 89dd59dd6b8e82a4449a6d737b818662.
+2025-10-22 15:02:34,683 - MegaBot.Database - INFO - Database connection closed
+2025-10-22 15:03:15,914 - discord.gateway - INFO - Shard ID None has successfully RESUMED session d8f554d6b17cbef4a75e87db1133dc24.
+2025-10-22 15:11:52,215 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-10-22 15:11:52,217 - MegaBot - INFO - Starting MegaBot...
+2025-10-22 15:11:52,219 - discord.client - INFO - logging in using static token
+2025-10-22 15:11:52,914 - MegaBot - INFO - Connecting to database...
+2025-10-22 15:11:52,928 - MegaBot.Database - INFO - Database tables created/verified
+2025-10-22 15:11:52,928 - MegaBot.Database - INFO - Database connected: bot_data.db
+2025-10-22 15:11:52,929 - MegaBot - INFO - Loading cogs...
+2025-10-22 15:11:52,957 - MegaBot - INFO - [OK] Loaded cogs.help
+2025-10-22 15:11:52,965 - MegaBot.Gaming - INFO - Gaming cog loaded
+2025-10-22 15:11:52,974 - MegaBot - INFO - [OK] Loaded cogs.gaming
+2025-10-22 15:11:52,986 - MegaBot - INFO - [OK] Loaded cogs.tournament
+2025-10-22 15:11:53,063 - MegaBot.Economy - INFO - Economy cog loaded
+2025-10-22 15:11:53,064 - MegaBot - INFO - [OK] Loaded cogs.economy
+2025-10-22 15:11:53,174 - MegaBot - INFO - [OK] Loaded cogs.utility
+2025-10-22 15:11:53,182 - MegaBot - INFO - [OK] Loaded cogs.study
+2025-10-22 15:11:53,529 - MegaBot - INFO - [OK] Loaded cogs.moderation
+2025-10-22 15:11:53,543 - MegaBot - INFO - [OK] Loaded cogs.fun
+2025-10-22 15:11:53,556 - MegaBot - INFO - [OK] Loaded cogs.stats
+2025-10-22 15:11:54,287 - MegaBot - INFO - [OK] Synced 66 command(s)
+2025-10-22 15:11:54,923 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 8e144f846a1447ff9eb71d5d6a953aa4).
+2025-10-22 15:11:56,941 - MegaBot - INFO - BOT ONLINE: MegaBot
+2025-10-22 15:11:56,943 - MegaBot - INFO - Connected to 1 server(s)
+2025-10-22 15:11:56,944 - MegaBot - INFO - Serving 4 users
+2025-10-22 15:11:56,950 - MegaBot - INFO - API server started on http://localhost:5000
+2025-10-22 15:15:13,823 - MegaBot.Database - INFO - Database connection closed
+2025-10-22 15:17:17,097 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-10-22 15:17:17,097 - MegaBot - INFO - Starting MegaBot...
+2025-10-22 15:17:17,097 - discord.client - INFO - logging in using static token
+2025-10-22 15:17:17,939 - MegaBot - INFO - Connecting to database...
+2025-10-22 15:17:17,944 - MegaBot.Database - INFO - Database tables created/verified
+2025-10-22 15:17:17,944 - MegaBot.Database - INFO - Database connected: bot_data.db
+2025-10-22 15:17:17,944 - MegaBot - INFO - Loading cogs...
+2025-10-22 15:17:17,951 - MegaBot - INFO - [OK] Loaded cogs.help
+2025-10-22 15:17:17,958 - MegaBot.Gaming - INFO - Gaming cog loaded
+2025-10-22 15:17:17,958 - MegaBot - INFO - [OK] Loaded cogs.gaming
+2025-10-22 15:17:17,962 - MegaBot - INFO - [OK] Loaded cogs.tournament
+2025-10-22 15:17:17,986 - MegaBot.Economy - INFO - Economy cog loaded
+2025-10-22 15:17:17,986 - MegaBot - INFO - [OK] Loaded cogs.economy
+2025-10-22 15:17:18,014 - MegaBot - INFO - [OK] Loaded cogs.utility
+2025-10-22 15:17:18,024 - MegaBot - INFO - [OK] Loaded cogs.study
+2025-10-22 15:17:18,050 - MegaBot - INFO - [OK] Loaded cogs.moderation
+2025-10-22 15:17:18,057 - MegaBot - INFO - [OK] Loaded cogs.fun
+2025-10-22 15:17:18,062 - MegaBot - INFO - [OK] Loaded cogs.stats
+2025-10-22 15:17:18,557 - MegaBot - INFO - [OK] Synced 66 command(s)
+2025-10-22 15:17:19,128 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 5385b536847c7b5867070963d31b4d52).
+2025-10-22 15:17:21,144 - MegaBot - INFO - BOT ONLINE: MegaBot
+2025-10-22 15:17:21,145 - MegaBot - INFO - Connected to 1 server(s)
+2025-10-22 15:17:21,145 - MegaBot - INFO - Serving 4 users
+2025-10-22 15:17:21,150 - MegaBot - INFO - API server started on http://localhost:5000
+2025-10-22 15:27:43,367 - MegaBot.Database - INFO - Database connection closed
+2025-10-22 15:45:53,219 - discord.gateway - INFO - Shard ID None has successfully RESUMED session 29e33bd3b493da037dbfe9c691545f7b.
+2025-10-22 15:54:15,631 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-10-22 15:54:15,631 - MegaBot - INFO - Starting MegaBot...
+2025-10-22 15:54:15,633 - discord.client - INFO - logging in using static token
+2025-10-22 15:54:16,816 - MegaBot - INFO - Connecting to database...
+2025-10-22 15:54:16,826 - MegaBot.Database - INFO - Database tables created/verified
+2025-10-22 15:54:16,826 - MegaBot.Database - INFO - Database connected: bot_data.db
+2025-10-22 15:54:16,826 - MegaBot - INFO - Loading cogs...
+2025-10-22 15:54:16,835 - MegaBot - INFO - [OK] Loaded cogs.help
+2025-10-22 15:54:16,841 - MegaBot.Gaming - INFO - Gaming cog loaded
+2025-10-22 15:54:16,841 - MegaBot - INFO - [OK] Loaded cogs.gaming
+2025-10-22 15:54:16,846 - MegaBot - INFO - [OK] Loaded cogs.tournament
+2025-10-22 15:54:16,853 - MegaBot.Economy - INFO - Economy cog loaded
+2025-10-22 15:54:16,854 - MegaBot - INFO - [OK] Loaded cogs.economy
+2025-10-22 15:54:16,883 - MegaBot - INFO - [OK] Loaded cogs.utility
+2025-10-22 15:54:16,890 - MegaBot - INFO - [OK] Loaded cogs.study
+2025-10-22 15:54:16,897 - MegaBot - INFO - [OK] Loaded cogs.moderation
+2025-10-22 15:54:16,905 - MegaBot - INFO - [OK] Loaded cogs.fun
+2025-10-22 15:54:16,911 - MegaBot - INFO - [OK] Loaded cogs.stats
+2025-10-22 15:54:17,502 - MegaBot - INFO - [OK] Synced 66 command(s)
+2025-10-22 15:54:18,727 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: a61f880c61dbbc97dec26c158bba081d).
+2025-10-22 15:54:20,741 - MegaBot - INFO - BOT ONLINE: MegaBot
+2025-10-22 15:54:20,742 - MegaBot - INFO - Connected to 1 server(s)
+2025-10-22 15:54:20,742 - MegaBot - INFO - Serving 4 users
+2025-10-22 15:54:20,745 - MegaBot - INFO - API server started on http://localhost:5000
+2025-10-22 15:54:26,632 - MegaBot.Database - INFO - Database connection closed
+2025-10-22 17:40:51,458 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-10-22 17:40:51,459 - MegaBot - INFO - Starting MegaBot...
+2025-10-22 17:40:51,459 - discord.client - INFO - logging in using static token
+2025-10-22 17:40:52,205 - MegaBot - INFO - Connecting to database...
+2025-10-22 17:40:52,228 - MegaBot.Database - INFO - Database tables created/verified
+2025-10-22 17:40:52,228 - MegaBot.Database - INFO - Database connected: bot_data.db
+2025-10-22 17:40:52,229 - MegaBot - INFO - Loading cogs...
+2025-10-22 17:40:52,235 - MegaBot - INFO - [OK] Loaded cogs.help
+2025-10-22 17:40:52,238 - MegaBot.Gaming - INFO - Gaming cog loaded
+2025-10-22 17:40:52,238 - MegaBot - INFO - [OK] Loaded cogs.gaming
+2025-10-22 17:40:52,241 - MegaBot - INFO - [OK] Loaded cogs.tournament
+2025-10-22 17:40:52,244 - MegaBot.Economy - INFO - Economy cog loaded
+2025-10-22 17:40:52,244 - MegaBot - INFO - [OK] Loaded cogs.economy
+2025-10-22 17:40:52,254 - MegaBot - INFO - [OK] Loaded cogs.utility
+2025-10-22 17:40:52,259 - MegaBot - INFO - [OK] Loaded cogs.study
+2025-10-22 17:40:52,262 - MegaBot - INFO - [OK] Loaded cogs.moderation
+2025-10-22 17:40:52,265 - MegaBot - INFO - [OK] Loaded cogs.fun
+2025-10-22 17:40:52,269 - MegaBot - INFO - [OK] Loaded cogs.stats
+2025-10-22 17:40:52,682 - MegaBot - INFO - [OK] Synced 66 command(s)
+2025-10-22 17:40:53,214 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: d05eb8e956454f7ca3433d7f2f1ee650).
+2025-10-22 17:40:55,229 - MegaBot - INFO - BOT ONLINE: MegaBot
+2025-10-22 17:40:55,230 - MegaBot - INFO - Connected to 2 server(s)
+2025-10-22 17:40:55,231 - MegaBot - INFO - Serving 7 users
+2025-10-22 17:40:55,237 - MegaBot - INFO - API server started on http://localhost:5000
+2025-10-22 17:41:31,347 - MegaBot.Database - INFO - Database connection closed
+2025-10-22 17:41:41,910 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-10-22 17:41:41,910 - MegaBot - INFO - Starting MegaBot...
+2025-10-22 17:41:41,911 - discord.client - INFO - logging in using static token
+2025-10-22 17:41:42,626 - MegaBot - INFO - Connecting to database...
+2025-10-22 17:41:42,630 - MegaBot.Database - INFO - Database tables created/verified
+2025-10-22 17:41:42,630 - MegaBot.Database - INFO - Database connected: bot_data.db
+2025-10-22 17:41:42,630 - MegaBot - INFO - Loading cogs...
+2025-10-22 17:41:42,643 - MegaBot - INFO - [OK] Loaded cogs.help
+2025-10-22 17:41:42,647 - MegaBot.Gaming - INFO - Gaming cog loaded
+2025-10-22 17:41:42,647 - MegaBot - INFO - [OK] Loaded cogs.gaming
+2025-10-22 17:41:42,652 - MegaBot - INFO - [OK] Loaded cogs.tournament
+2025-10-22 17:41:42,657 - MegaBot.Economy - INFO - Economy cog loaded
+2025-10-22 17:41:42,657 - MegaBot - INFO - [OK] Loaded cogs.economy
+2025-10-22 17:41:42,663 - MegaBot - INFO - [OK] Loaded cogs.utility
+2025-10-22 17:41:42,668 - MegaBot - INFO - [OK] Loaded cogs.study
+2025-10-22 17:41:42,673 - MegaBot - INFO - [OK] Loaded cogs.moderation
+2025-10-22 17:41:42,678 - MegaBot - INFO - [OK] Loaded cogs.fun
+2025-10-22 17:41:42,682 - MegaBot - INFO - [OK] Loaded cogs.stats
+2025-10-22 17:41:43,117 - MegaBot - INFO - [OK] Synced 66 command(s)
+2025-10-22 17:41:43,567 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 842b7f0f0d2c35d999f17571737ca52b).
+2025-10-22 17:41:45,569 - MegaBot - INFO - BOT ONLINE: MegaBot
+2025-10-22 17:41:45,570 - MegaBot - INFO - Connected to 2 server(s)
+2025-10-22 17:41:45,571 - MegaBot - INFO - Serving 7 users
+2025-10-22 17:41:45,575 - MegaBot - INFO - API server started on http://localhost:5000
+2025-10-22 17:50:37,668 - discord.gateway - INFO - Shard ID None has successfully RESUMED session 842b7f0f0d2c35d999f17571737ca52b.
