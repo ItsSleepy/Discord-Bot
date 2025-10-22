@@ -862,3 +862,4 @@ discord.app_commands.errors.CommandInvokeError: Command 'daily' raised an except
 2025-10-22 19:05:29,755 - MegaBot - INFO - Serving 34 users
 2025-10-22 19:05:29,756 - MegaBot - INFO - API server started on http://localhost:5000
 2025-10-22 21:22:26,551 - discord.gateway - INFO - Shard ID None has successfully RESUMED session d8bb45f942342fc90f69b9cc00456b95.
+2025-10-22 22:18:55,453 - MegaBot.Database - INFO - Database connection closed

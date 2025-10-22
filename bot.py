@@ -147,11 +147,11 @@ class MegaBot(commands.Bot):
 def main():
     """Main function to run the bot"""
     
-    # Check if .env file exists
-    if not os.path.exists('.env'):
-        logger.error("❌ .env file not found!")
-        logger.info("📝 Please create a .env file based on .env.example")
-        logger.info("💡 Add your Discord bot token to the .env file")
+    # Check if Discord token is available (either from .env or environment variables)
+    if not Config.DISCORD_TOKEN:
+        logger.error("❌ Discord token not found!")
+        logger.info("📝 Please set DISCORD_TOKEN environment variable")
+        logger.info("💡 For local development, create a .env file based on .env.example")
         return
     
     # Create data directory if it doesn't exist
