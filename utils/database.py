@@ -11,6 +11,14 @@ from typing import Optional, List, Dict, Any
 class Database:
     def __init__(self, db_path: str = "data/database.db"):
         self.db_path = db_path
+    
+    async def connect(self):
+        """Initialize database connection and tables"""
+        await self.init_db()
+    
+    async def close(self):
+        """Close database connection (no-op since we use context managers)"""
+        pass
         
     async def init_db(self):
         """Initialize database tables"""
