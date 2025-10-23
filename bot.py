@@ -105,6 +105,18 @@ class MegaBot(commands.Bot):
             logger.error(f"Error in command {ctx.command}: {error}")
             await ctx.send(f"{Config.EMOJI_ERROR} An error occurred. Please try again later.")
     
+    @commands.command(name='sync')
+    @commands.is_owner()
+    async def sync_commands(self, ctx):
+        """Sync slash commands with Discord (Owner only)"""
+        try:
+            synced = await self.tree.sync()
+            await ctx.send(f"✅ Synced {len(synced)} commands!")
+            logger.info(f"Manual sync: {len(synced)} commands synced")
+        except Exception as e:
+            await ctx.send(f"❌ Failed to sync: {e}")
+            logger.error(f"Manual sync failed: {e}")
+    
     async def on_guild_join(self, guild):
         """Called when bot joins a new server"""
         logger.info(f"📥 Joined new server: {guild.name} (ID: {guild.id})")
