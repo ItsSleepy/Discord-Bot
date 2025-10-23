@@ -16,14 +16,12 @@ class Help(commands.Cog):
     @app_commands.describe(category="Choose a specific category to view")
     @app_commands.choices(category=[
         app_commands.Choice(name="🎮 Gaming", value="gaming"),
-        app_commands.Choice(name="⚽ Sports", value="sports"),
         app_commands.Choice(name="🏆 Tournament", value="tournament"),
         app_commands.Choice(name="💰 Economy", value="economy"),
         app_commands.Choice(name="🔧 Utility", value="utility"),
         app_commands.Choice(name="📚 Study", value="study"),
         app_commands.Choice(name="🛡️ Moderation", value="moderation"),
         app_commands.Choice(name="🎉 Fun", value="fun"),
-        app_commands.Choice(name="🤖 AI", value="ai"),
         app_commands.Choice(name="📊 Stats", value="stats"),
     ])
     async def help_command(self, interaction: discord.Interaction, category: Optional[str] = None):
@@ -38,16 +36,14 @@ class Help(commands.Cog):
             )
             
             categories = {
-                "🎮 Gaming": "LFG system, game roles, gaming profiles",
-                "⚽ Sports": "Sports betting, match tracking, predictions",
-                "🏆 Tournament": "Tournament management and brackets",
-                "💰 Economy": "Virtual currency, shop, gambling, trading",
-                "🔧 Utility": "Polls, reminders, calculator, server info",
-                "📚 Study": "Study timer, notes, flashcards, resources",
-                "🛡️ Moderation": "Kick, ban, mute, warnings, logging",
-                "🎉 Fun": "Jokes, memes, 8ball, trivia, games",
-                "🤖 AI": "ChatGPT integration, image generation",
-                "📊 Stats": "Server stats, user stats, leaderboards"
+                "🎮 Gaming": "Steam profiles, LFG system, game deals, gaming roles",
+                "🏆 Tournament": "Create and manage tournaments with brackets",
+                "💰 Economy": "Virtual currency, shop, gambling games, leaderboards",
+                "🔧 Utility": "Polls, reminders, translate, calculator, server info",
+                "📚 Study": "Pomodoro timer, homework tracker, quiz system",
+                "🛡️ Moderation": "Kick, ban, mute, clear, slowmode, warnings, giveaways",
+                "🎉 Fun": "Jokes, memes, 8ball, trivia, dice, fortune",
+                "📊 Stats": "Server stats, channel stats, top chatters, emoji stats"
             }
             
             for cat_name, description in categories.items():
@@ -59,11 +55,11 @@ class Help(commands.Cog):
             
             embed.add_field(
                 name="💡 Quick Start",
-                value="Try `/balance` to start your economy journey!\nUse `/setup` to configure the bot for your server.\nUse `/dashboard` to access the web dashboard!",
+                value="Try `/balance` to start your economy journey!\nUse `/giveaway` to run server giveaways!\nTry `/pomodoro` to start studying!",
                 inline=False
             )
             
-            embed.set_footer(text=f"Total Commands: 69 | Requested by {interaction.user.display_name}")
+            embed.set_footer(text=f"Total Commands: 58 | Requested by {interaction.user.display_name}")
             
         else:
             # Category-specific help
@@ -71,133 +67,106 @@ class Help(commands.Cog):
                 "gaming": {
                     "title": "🎮 Gaming Commands",
                     "commands": [
-                        "/playing - Set what game you're playing",
-                        "/lfg - Create a looking-for-group post",
-                        "/gamedeal - Search for game deals",
-                        "/gamerole - Get a role for a specific game",
-                        "/currentgames - See who's playing what"
-                    ]
-                },
-                "sports": {
-                    "title": "⚽ Sports Commands",
-                    "commands": [
-                        "/sportsbet - Place a bet on a sports match",
-                        "/mybets - View your active sports bets",
-                        "/matches - View upcoming sports matches",
-                        "/sportsprediction - AI prediction for a match",
-                        "/sportsstats - View sports betting statistics",
-                        "/followteam - Follow a sports team",
-                        "/odds - View current betting odds"
+                        "/steam <profile> - View Steam profile information",
+                        "/playing - See what server members are currently playing",
+                        "/lfg <game> <players> - Create a looking-for-group post",
+                        "/gamedeal <game> - Search for game deals and discounts",
+                        "/gamerole <game> - Get a gaming role for a specific game"
                     ]
                 },
                 "tournament": {
                     "title": "🏆 Tournament Commands",
                     "commands": [
                         "/createtournament - Create a new tournament",
-                        "/jointournament - Join a tournament",
-                        "/tournamentbracket - View tournament bracket",
-                        "/reportmatch - Report a match result",
-                        "/tournamentinfo - View tournament details",
-                        "/tournaments - List all active tournaments"
+                        "/jointournament - Join an active tournament",
+                        "/leavetournament - Leave a tournament you joined",
+                        "/tournamentinfo - View detailed tournament information",
+                        "/starttournament - Start the tournament (organizer only)",
+                        "/listtournaments - List all active tournaments",
+                        "/deletetournament - Delete a tournament (organizer only)"
                     ]
                 },
                 "economy": {
                     "title": "💰 Economy Commands",
                     "commands": [
-                        "/balance - Check your balance",
-                        "/daily - Claim daily reward",
+                        "/balance - Check your current balance and active boosts",
+                        "/daily - Claim your daily reward (24h cooldown)",
                         "/work - Work to earn money",
-                        "/rob - Rob another user (risky!)",
-                        "/give - Give money to another user",
-                        "/shop - View the shop",
-                        "/buy - Buy an item from shop",
-                        "/inventory - View your inventory",
-                        "/sell - Sell an item",
-                        "/slots - Play slots machine",
-                        "/coinflip - Flip a coin for money",
-                        "/blackjack - Play blackjack",
-                        "/leaderboard - View economy leaderboard"
+                        "/transfer <user> <amount> - Transfer money to another user",
+                        "/leaderboard - View the richest users on the server",
+                        "/shop - View items available in the shop",
+                        "/buy <item> - Buy an item from the shop",
+                        "/inventory - View your items and boosts",
+                        "/use <item> - Activate a consumable item",
+                        "/sell <item> <quantity> - Sell items for money",
+                        "/rob <user> - Attempt to rob another user",
+                        "/slots <bet> - Play the slot machine",
+                        "/blackjack <bet> - Play blackjack game"
                     ]
                 },
                 "utility": {
                     "title": "🔧 Utility Commands",
                     "commands": [
-                        "/poll - Create a poll",
-                        "/remind - Set a reminder",
-                        "/translate - Translate text",
-                        "/calculate - Calculate math expressions",
-                        "/userinfo - Get info about a user",
-                        "/serverinfo - Get server information",
-                        "/avatar - View user's avatar",
-                        "/timestamp - Generate Discord timestamps",
-                        "/color - View color information"
+                        "/poll <question> <options> - Create a poll",
+                        "/remind <time> <message> - Set a reminder",
+                        "/translate <text> <language> - Translate text to another language",
+                        "/calculate <expression> - Calculate math expressions",
+                        "/userinfo <user> - Get detailed information about a user",
+                        "/serverinfo - Get server information and statistics",
+                        "/avatar <user> - View and download user's avatar"
                     ]
                 },
                 "study": {
                     "title": "📚 Study Commands",
                     "commands": [
-                        "/studytimer - Start a study timer",
-                        "/note - Create a study note",
-                        "/mynotes - View your notes",
-                        "/flashcard - Create a flashcard",
-                        "/quiz - Take a quiz from flashcards",
-                        "/studygroup - Create a study group",
-                        "/resource - Share a study resource",
-                        "/studystats - View your study statistics"
+                        "/pomodoro - Start a 25-minute Pomodoro study timer",
+                        "/stoppomodoro - Stop your active Pomodoro timer",
+                        "/homework add - Add a new homework assignment",
+                        "/homeworklist - View all your homework assignments",
+                        "/homeworkdone - Mark a homework assignment as complete",
+                        "/homeworkdelete - Delete a homework assignment",
+                        "/quiz - Take a quick trivia quiz to test your knowledge"
                     ]
                 },
                 "moderation": {
                     "title": "🛡️ Moderation Commands",
                     "commands": [
-                        "/kick - Kick a member",
-                        "/ban - Ban a member",
-                        "/unban - Unban a member",
-                        "/mute - Mute a member",
-                        "/unmute - Unmute a member",
-                        "/warn - Warn a member",
-                        "/warnings - View warnings for a user",
-                        "/clear - Clear messages",
-                        "/slowmode - Set slowmode",
-                        "/lock - Lock a channel",
-                        "/unlock - Unlock a channel",
-                        "/modlogs - View moderation logs"
+                        "/kick <member> <reason> - Kick a member from the server",
+                        "/ban <member> <reason> - Ban a member from the server",
+                        "/mute <member> <duration> - Temporarily mute a member",
+                        "/unmute <member> - Remove mute from a member",
+                        "/warn <member> <reason> - Warn a member",
+                        "/clear <amount> - Clear specified number of messages",
+                        "/slowmode <seconds> - Set channel slowmode delay",
+                        "/setwelcome <channel> - Set welcome message channel",
+                        "/setautorole <role> - Set auto-role for new members",
+                        "/removeautorole - Remove auto-role",
+                        "/giveaway <duration> <prize> - Start a giveaway"
                     ]
                 },
                 "fun": {
                     "title": "🎉 Fun Commands",
                     "commands": [
                         "/joke - Get a random joke",
-                        "/meme - Get a random meme",
-                        "/8ball - Ask the magic 8ball",
-                        "/trivia - Play trivia game",
-                        "/wouldyourather - Would you rather game",
-                        "/roll - Roll dice",
-                        "/flip - Flip a coin",
-                        "/rps - Rock paper scissors",
-                        "/rate - Rate something out of 10",
-                        "/choose - Choose between options"
-                    ]
-                },
-                "ai": {
-                    "title": "🤖 AI Commands",
-                    "commands": [
-                        "/ask - Ask AI a question",
-                        "/chat - Start a conversation with AI",
-                        "/imagine - Generate an image with DALL-E",
-                        "/summarize - Summarize text with AI",
-                        "/translate-ai - AI-powered translation",
-                        "/code - Get coding help from AI"
+                        "/meme - Get a random meme from Reddit",
+                        "/8ball <question> - Ask the magic 8-ball a question",
+                        "/trivia - Start a trivia game with multiple questions",
+                        "/flip - Flip a coin (heads or tails)",
+                        "/roll <dice> - Roll dice (e.g., 2d6 for two 6-sided dice)",
+                        "/choose <options> - Let the bot choose between options",
+                        "/fortune - Get your fortune told",
+                        "/rate <thing> - Rate something out of 10"
                     ]
                 },
                 "stats": {
                     "title": "📊 Stats Commands",
                     "commands": [
-                        "/stats - View your stats",
-                        "/serverstats - View server statistics",
-                        "/topusers - View most active users",
-                        "/activity - View server activity graph",
-                        "/usergrowth - View user growth statistics",
-                        "/commandstats - View command usage stats"
+                        "/serverstats - View comprehensive server statistics",
+                        "/channelstats <channel> - View specific channel statistics",
+                        "/roleinfo <role> - View detailed role information",
+                        "/topchatters - View most active chatters in the server",
+                        "/emojistats - View emoji usage statistics",
+                        "/membercount - View member count growth over time"
                     ]
                 }
             }
