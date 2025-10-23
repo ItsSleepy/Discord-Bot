@@ -7,7 +7,7 @@ import os
 from datetime import datetime
 from config import Config
 from api.bot_api import BotAPI
-from database import Database
+from utils.database import Database
 
 # Setup logging
 logging.basicConfig(
@@ -49,6 +49,7 @@ class MegaBot(commands.Bot):
             'cogs.gaming',
             'cogs.tournament',
             'cogs.economy',
+            'cogs.admin',
             'cogs.utility',
             'cogs.study',
             'cogs.moderation',
